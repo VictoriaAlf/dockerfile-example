@@ -1,0 +1,17 @@
+install:
+	npm install
+
+test:
+	npm run test
+
+lint:
+	npm run lint
+
+build:
+	npm run build
+
+docker-build:
+	docker build -t my-typescript-service .
+
+docker-push:
+	docker push my-typescript-service
